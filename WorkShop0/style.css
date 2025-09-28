@@ -1,0 +1,64 @@
+/* Our own styles design*/
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap');
+
+body{
+    font-family:"Bitcount Single Ink";
+    margin: 0;
+    justify-content: center;
+    align-items: center; 
+}
+
+:root{
+    --primary: #fc4c39;
+    --gray: #f7f7f7;
+    --white: #ffffff;
+    
+    --xs:4px;
+    --s:8px;
+    --m:16px;
+    --l:24px;
+}
+
+.u-textCenter{   /*utility class*/
+    text-align:center;
+
+}
+
+.u-flex{
+    display:flex;
+    flex-direction: row;
+}
+
+.navTitle{
+    color:var(--white);
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.navContainer{
+    font-family:"Bitcount+Single+Ink";
+    background-color:var(--primary);
+    padding: var(--s) var(--m)
+}
+
+.avatar{
+    border-radius: var(--m);  /*to set the corner of image*/
+}
+
+.circle-img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: block;
+    margin: 20px auto;
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 80px;
+}
